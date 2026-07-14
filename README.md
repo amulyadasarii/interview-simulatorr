@@ -107,7 +107,33 @@ public/
 ```
 
 ---
+---
 
+## 📸 Application Screens
+
+### 🏠 Homepage
+
+The landing page introduces the Interview Simulator platform and allows users to begin their interview preparation journey.
+
+![Homepage](homepage.png)
+
+---
+
+### 🎯 Role Selection Page
+
+Users can choose their preferred job role and interview style to create a personalized interview experience.
+
+![Role Selection](roleselection.png)
+
+---
+
+### 💬 Interview Session
+
+The interactive interview interface presents role-specific questions and enables users to practice answering in a realistic interview environment.
+
+![Interview Session](interview.png)
+
+---
 ## 🚀 Future Enhancements
 
 - 🎙️ Voice-Based Interviews
