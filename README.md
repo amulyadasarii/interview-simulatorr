@@ -8,7 +8,7 @@ A modern and interactive interview preparation platform built using **React, Typ
 
 ## 🌐 Live Demo
 
-🔗 https://agent-6a560ba2f5c2d85d905d77b--teal-scone-fbc1b2.netlify.app/
+https://interview-simulatorr.netlify.app/
 
 ---
 
