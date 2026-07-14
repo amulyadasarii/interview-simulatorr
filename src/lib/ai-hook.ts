@@ -1,0 +1,27 @@
+import {
+  fetchServerSentEvents,
+  useChat,
+  createChatClientOptions,
+} from '@tanstack/ai-react'
+import type { InferChatMessages } from '@tanstack/ai-react'
+
+// Default chat options for simple usage
+const defaultChatOptions = createChatClientOptions({
+  connection: fetchServerSentEvents('/api/chat'),
+})
+
+export type ChatMessages = InferChatMessages<typeof defaultChatOptions>
+
+export interface InterviewConfig {
+  role: string
+  interviewType: string
+}
+
+export const useAIChat = (config: InterviewConfig) => {
+  const chatOptions = createChatClientOptions({
+    connection: fetchServerSentEvents('/api/chat'),
+    body: config,
+  })
+
+  return useChat(chatOptions)
+}
